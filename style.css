@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none ;
+}
+.container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  /* navbar */
+  .navbar-content{
+    margin-bottom: 83px;
+    margin-top: 78px;
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-content img{
+    width: 185px;
+    height: 41px;
+  }
+  .links{
+    display: flex;
+    gap: 40px;
+  }
+  .navbar-link{
+    color: #1F1534;
+    font-size: 18px;
+  }
+  /* navbar */
+  /* header */
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-card-1{
+    width: 445px;
+    height: 334px;
+  }
+  .header-card-1 h1{
+    font-size: 48px;
+    color: #000000;
+    line-height: 56px;
+  }
+  .header-card-1 p{
+    font-weight: 300px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin: 24px 0 44px 0;
+  }
+  .button-header{
+    background-color: #458FF6;
+    border: 1px solid #000000;
+    border-radius: 55px;
+    width: 200px;
+    height: 55px;
+    color: white;
+  }
+  .header-card-2{
+    height: 591px;
+    width: 693px;
+  }
+  /* services */
+  .services-h1{
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .services-h1 h1{
+    font-size: 36px;
+    line-height: 56px;
+    columns: #000000;
+  }
+  .chiziqcha{
+    color: #000000;
+    margin: 26px 0 33px 0;
+}
+.text{
+    font-size: 18px;
+    color: #7D7987;
+    width: 952px;
+    height: 60px;
+}
+.services-cards{
+  margin-top: 80px;
+  gap: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/bg-services.png);
+}
+.card{
+  width: 350px;
+  height: 354px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 40px;
+  box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+.card h3{
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+.card p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+.button-cards{
+    background-color: white;
+    border: 1px solid #3f12e1;
+    border-radius: 55px;
+    width: 200px;
+    height: 55px;
+    color: rgb(31, 6, 251);
+    margin: 70px 0 220px 0; 
+}
+  /* services end */
+  /* leading  */
+  .leading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1273px;
+    height: 477px;
+    gap: 137px;
+  }
+  .leading-card-2{
+    width: 486px;
+    height: 388px;
+  }
+  .leading-card-2 h1{
+    font-size: 36px;
+    color: #000000;
+    line-height: 56px;
+  }
+  .leading-card-2 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+  }
+  .button-leading{
+    background-color: white;
+    border: 1px solid #3f12e1;
+    border-radius: 55px;
+    width: 200px;
+    height: 55px;
+    color: rgb(31, 6, 251);
+    margin: 37px 0 220px 0;  
+  }
+  /* leading end */
+    /* leading  */
+    .download{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1160px;
+      height: 477px;
+      gap: 137px;
+      margin-top: 200px;
+    }
+    .download-card-1{
+      width: 420px;
+      height: 375px;
+    }
+    .download-card-1 h1{
+      font-size: 36px;
+      color: #000000;
+      line-height: 56px;
+    }
+    .download-card-1 p{
+      font-size: 18px;
+      line-height: 30px;
+      color: #7D7987;
+    }
+    .button-download{
+      background-color: white;
+      border: 1px solid #3f12e1;
+      border-radius: 55px;
+      width: 200px;
+      height: 55px;
+      color: rgb(31, 6, 251);
+      margin: 37px 0 220px 0;  
+    }
+    /* leading end */
+    /* edward */
+    .edward-content{
+      margin-bottom: 200px;
+      width: 1120px;
+      height: 425px;
+      border-radius: 24px;
+      background-image: url(./img/edward-bg.png);
+      color: #FFFFFF;
+    }
+    .edward-content h1{
+      margin-top: 200px;
+      padding-top: 64px;
+      display: flex;
+      justify-content: center;
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .chiziqcha-edward{
+      margin: 25px 530px 77px 534px; 
+    }
+    .edward-cards{
+      display: flex;
+      justify-content: space-between;
+    }
+    .edward-card-1{
+      width: 360px;
+      height: 141px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-left: 70px;
+    }
+    .edward-card-2{
+      width: 400px;
+      height: 120px;
+      font-size: 19px;
+      line-height: 30px;
+      margin-right: 70px;
+    }
+    /* edward end */
+    /* healthy */
+    .healthy{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .healthy h1{
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    }
+    .healthy-cards{
+      display: flex;
+      gap: 34px;
+    }
+    .healthy-card{
+    width: 350px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 40px 50px 0px #819aec66;
+    border-radius: 20px;
+   
+    }
+    .healthy-card h3{
+      font-size: 21px;
+      line-height: 32px;
+      color: #000000;
+      width: 266px;
+      margin-top: 24px;
+    }
+    .healthy-card p{
+      font-size: 16px;
+      line-height: 28px; 
+      color: #7D7987;
+      width: 266px;
+      margin: 12px 0 25px 0;
+    }
+    .read{
+      margin-left: -130px;
+    }
+    .button-healthy{
+    background-color: white;
+    border: 1px solid #3f12e1;
+    border-radius: 55px;
+    width: 200px;
+    height: 55px;
+    color: rgb(31, 6, 251);
+    margin: 37px 0 220px 0;
+    margin-bottom: 130px;
+    }
+    /* healthy end */
+  /* header end */
